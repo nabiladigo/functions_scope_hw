@@ -5,15 +5,26 @@
 function calculateCube(num){
     return (num**3)
 }
-console.log(calculateCube(5))
+// console.log(calculateCube(5))
+
 
 // 2function `isAVowel` 
 function isAVowel(letter){
     let vowels =(["a", "e", "i", "o", "u"]);
       for (let i=0; i<= vowels.length;i++){
+          if (letter== vowels[i]){
         return true
     }
-        return false
-    }
+}
+return false
+}
 
-console.log(isAVowel("o"));
+// console.log(isAVowel("o"));
+
+
+
+// 4 function Get Two Lengths
+function getTwoLengths(word1,word2){
+    return [word1.length,word2.length]
+}
+// console.log(getTwoLengths("Hank","hippopopalous"))
