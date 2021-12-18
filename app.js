@@ -25,6 +25,24 @@ return false
 
 // 4 function Get Two Lengths
 function getTwoLengths(word1,word2){
-    return [word1.length,word2.length]
+    let lengthOne= word1.length
+    let lengthTwo= word2.length
+    newArray=[ lengthOne, lengthTwo]
+    return(newArray) 
 }
 // console.log(getTwoLengths("Hank","hippopopalous"))
+
+
+
+// 5 function Sum Array
+function sumArray(arr){
+    let sum = 0
+    for (let i=0; i< arr.length; i++){
+        sum+=arr[i]
+    }
+   return sum
+}
+// console.log(sumArray([1, 2, 3, 4, 5, 6]));
+
+
+ 
