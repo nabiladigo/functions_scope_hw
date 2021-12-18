@@ -74,12 +74,12 @@ function checkPrime(num){
 
 //  7 function print Longest Word
 function printLongestWord(array){
-    let longestWord;
-    for (let i= 0; i < array.length, i++){
+    let longestWord ="";
+    for( let i= 0; i< array.length; i++){
         if (array[i].length > longestWord.length)
         longestWord = array[i];
     }
     return longestWord;
 
 }
-console.log(printLOngestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "blob"]));
+console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "blob"]));
