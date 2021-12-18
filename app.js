@@ -45,4 +45,21 @@ function sumArray(arr){
 // console.log(sumArray([1, 2, 3, 4, 5, 6]));
 
 
- 
+//6 function Prime Numbers
+function checkPrime(num){
+    for (let i=2; i<=Math.sqrt(num) ; i++){
+        if (num% i=== 0){
+    return false;
+}
+    }
+    return true;
+}
+console.log(checkPrime(7)); 
+ function printPrimes(num){
+     for (let i =2; i< num; i++){
+        if(checkPrime(i)){
+            console.log(`${i}`);
+        }
+     }
+ }
+ console.log(printPrimes(17))
